@@ -1,0 +1,7 @@
+{
+    "channel": "#terraform",
+    "username": "terraform plan check",
+    "icon_emoji": ":terraform:",
+    "text": "Today's terraformplan\n <https://xxxxx/terrabot|gitlab>",
+    "attachments": []
+}

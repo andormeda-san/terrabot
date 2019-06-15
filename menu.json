@@ -1,0 +1,35 @@
+{
+    "text": "Please select a project to terraform plan :terraform:",
+    "color": "#f9a41b",
+    "callback_id": "beer",
+    "actions": [
+        {
+            "name": "select",
+            "type": "select",
+            "options": [
+                {
+                    "text": "all-project",
+                    "value": "all-project all"
+                },
+                {
+                    "text": "a-project",
+                    "value": "a-project aws"
+                },
+                {
+                    "text": "b-project",
+                    "value": "b-project gcp"
+                },
+                {
+                    "text": "c-project",
+                    "value": "c-project aws"
+                }
+            ]
+        },
+        {
+            "name": "cancel",
+            "text": "Cancel",
+            "type": "button",
+            "style": "danger"
+        }
+    ]
+}
